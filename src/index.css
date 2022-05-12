@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.seconddive{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgba(221, 213, 213,0.29);  
+    width: 100%;
+    height: 100px;
+    color: rgb(9, 9, 43);
+    
+}
+.listboard{
+display: none;
+background-color: rgba(255, 255, 255, 0.913) !important;  
+width: 200px;
+box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+2px 0px 2px 4px rgba(33, 30, 30, 0.209);
+position: relative;
+right: 720px;
+top: 80px;
+
+}
+.listboard a{
+    text-align: center;
+    
+    padding-bottom: 50px;
+    text-decoration: none;
+   
+    font-weight: 600;
+    color: rgb(9, 9, 43);
+}
+.listboard a:hover{
+    box-shadow: 10px 10px 2px 4px  rgba(255, 255, 255, 0.876),
+               
+}
+.listboard .list1{
+    position: relative;
+    top: 20px;
+    
+}
+.listboard .list1:hover{
+    color: rgb(171, 10, 10);
+}
+.listboard .list2{
+    position: relative;
+    top: 20px;
+}
+.listboard .list2:hover{
+    color: rgb(171, 10, 10);
+}
+.listboard .list3{
+    position: relative;
+    top: 20px;
+}
+.listboard .list3:hover{
+    color: rgb(171, 10, 10);
+}
+.listboard .list4{
+    position: relative;
+    top: 20px;
+}
+.listboard .list4:hover{
+    color: rgb(171, 10, 10);
+}
+.listboard .list5{
+    position: relative;
+    top: 20px;
+}
+.listboard .list5:hover{
+    color: rgb(171, 10, 10);
+}
+
+
+.listboard hr{
+    color:rgba(9, 9, 43, 0.318);
+}
+.malo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    
+    height: 120px;
+    width: 240px;
+    box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+                 2px 0px 2px 4px rgba(33, 30, 30, 0.209);
+    position: relative;
+    right: -40px;
+    
+}
+.firsth1{
+  margin-left: 80px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  right: 30px;
+  bottom: 5px;
+  color: rgb(9, 9, 43);
+}
+.malo img{
+    width: 60px ;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 60px;
+    position: relative;
+    
+    right: 30px;
+    bottom: 10px;
+
+}
+.div1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 10px;
+    flex-wrap: wrap;
+    flex-grow: 10px ;
+    padding-left: 10px;
+ 
+}
+.div1 .para1{
+    margin-right: 30px;
+    text-transform: capitalize;
+    color: rgb(9, 9, 43);
+    position: relative;
+    left: 20px;
+    top: 5px;
+    text-decoration: none;
+
+}
+.div1 .para1:hover{
+    cursor: pointer;
+    border-top: 6px solid rgb(171, 10, 10) ;
+    
+}
+.div1 .leader{
+    color: rgb(9, 9, 43);
+    position: relative;
+    top: 3px;
+}
+.div1 .leader1{
+    position: relative;
+    left: 10px;
+    top: 3px;
+    color: rgb(9, 9, 43)
+}
+.div1 .leader1:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.div1 .input-form{
+    display: none;
+    background: none;
+    border: none;
+    background: #fff;
+    border: 1px solid transparent;
+    
+    margin-left: 5px;
+    
+    
+}
+/*.div1 .input-form:hover{
+    padding: 10px;
+    padding-right: 50px;
+}*/
+/*traitement de home*/
+.homedive{
+    background-image: url(images/pint12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;  
+    overflow: hidden; 
+}
+.homedive .title{
+    position: relative;
+    top: 60px;
+    left: 90px;
+    background-color: rgb(171, 10, 10);
+    color: #fff;
+    width: 400px;
+    opacity: 0.8;
+    font-weight: 600;
+   
+}
+.homedive p{
+    position: relative;
+    top: 100px;
+    left: 90px;
+    color: #fff;
+    line-height: 25px;
+    font-weight: 600;
+}
+/*part side*/
+.main{
+    background-color: #fff;
+    height: 560px;
+    width: 380px;
+    box-shadow: 4px 0px 3px 4px rgba(255, 255, 255, 0.9),
+    4px 0px 3px 4px rgba(255, 255, 255, 0.9),
+    4px 0px 3px 4px rgba(255, 255, 255, 0.9);
+    display: grid;
+    
+    /*justify-content: right;*/
+    position: relative;
+    bottom: 310px;
+    right: -790px;
+    width:- 200000px;
+}
+.main p{
+    color: rgba(9, 9, 43, 0.461);
+    position: relative;
+    left: 0px;
+}
+ .paraprase1,.paraprase2,.paraprase3{
+    color:  rgb(171, 10, 10) !important;
+    border-top: 1px solid rgba(51, 51, 51, 0.33);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.main  .sec3{
+    position: relative;
+    bottom: 90px;
+
+}
+.main .sec2{
+    position: relative;
+    bottom: 50px;
+}
+.main .paraprase{
+    position: relative;
+    left: 24px;
+    bottom: 12px;
+}
+
+.main input{
+    font-weight: 600;
+    border: none;
+    position: relative;
+    left: 40px;
+    top: -30px;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+    background-color:  rgb(171, 10, 10);
+    text-transform: capitalize;
+}
+.hom1{
+    background: rgba(221, 213, 213,0.29); 
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.title1{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(9, 9, 43);
+    padding-top: 20px;
+} 
+.main21,.main22{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.leader21{
+    position: relative;
+    /*right: 60px;*/
+    left: 20px;
+    top: 30px;
+    
+    width: 50px;
+    height: 60px;
+    color: rgb(9, 9, 43);
+}
+.p1{
+    text-transform: capitalize;
+    color: rgb(9, 9, 43);
+ 
+}
+.p1,.p11{
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+.p11{
+    position: relative;
+
+}
+.leader41{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    width: 50px;
+    height: 60px;
+    color: rgb(9, 9, 43);
+
+}
+.p4{
+    color: rgb(9, 9, 43);
+    
+}
+.main3{
+    background-color: #fff;
+    width: 600px;
+}
+.main4{
+    background-color: #fff;
+    width: 500px;
+
+}
+.main3:hover,.main4:hover,.main5:hover,.main6:hover{
+    cursor: pointer;
+    border: 2px solid rgb(171, 10, 10);
+}
+
+.p4,.p42{
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    text-transform: capitalize;
+}
+/*traitemnet du second maon*/
+.main5{
+    background-color: #fff;
+    position: relative;
+    left: 2px;
+    bottom: 5px;
+    width: 600px;
+    height: 120px;
+}
+.p5{
+    color: rgb(9, 9, 43);
+}
+.p5,.p55{
+    position: relative;
+    left:80px;
+    bottom: 40px;
+}
+.leader23{
+    color: rgb(9, 9, 43);
+    width: 50px;
+    height: 70px;
+    position: relative;
+    top: 26px;
+    left: 20px;
+
+}
+.main6{
+    background-color: #fff;
+    position: relative;
+    left: 5px;
+    width: 500px;
+}
+.leader61{
+    width: 50px;
+    height: 55px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: rgb(9, 9, 43);
+}
+.p6{
+    color: rgb(9, 9, 43);
+}
+.p6,.p66{
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+}
+.wwd1{
+    
+    position: relative;
+    top: 100px;
+    left: 130px;
+    padding-left: 40px;
+    padding-top: 40px;
+    background: rgba(221, 213, 213,0.29); 
+    margin-right: 700px;
+    height: 700px;/*500*/
+    width: 600px;
+    
+    
+}
+.wwd1 h1{
+    text-transform: capitalize;
+    color: rgb(9, 9, 43);
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.wwd1 p{
+    line-height: 30px;
+}
+.wwd1 p span{
+    color: rgb(171, 10, 10);
+}
+.wwd1 a{
+    text-decoration: none;
+    color: rgb(171, 10, 10);
+    position: relative;
+    top: 100px;    
+}
+.wwd1 .icon233{
+    color: rgb(171, 10, 10);
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+.wwd1 a:hover{
+   /* border-bottom: 1px solid  rgb(171, 10, 10);*/
+    color: rgb(9, 9, 43);
+}
+
+.image1{
+    position: relative;
+    left: 650px;
+    bottom:400px;
+    width: 500px;
+    height: 600px;
+    box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+                     2px 0px 2px 4px rgba(33, 30, 30, 0.209);
+    
+}
+.Cqf h1{
+    text-align: center;
+    color: rgb(9, 9, 43);
+    position: relative;
+    bottom: 160px;/*370*/
+    
+}
+.Cqf1{
+    position: relative;
+    bottom: 100px;/*300*/
+    display: flex;
+    margin-left: 130px;
+    background: rgba(221, 213, 213,0.29);
+    width: 1020px;
+    height: 300px;
+
+}
+.Cqf1 p{
+    line-height: 40px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.Cqf1 a{
+    position: relative;
+    top: 230px;
+    left: -280px;
+    text-decoration: none;
+    color: rgb(171, 10, 10);
+    
+}
+.Cqf1 .line:hover{
+    color: rgb(9, 9, 43);
+}
+.icon2333{
+    position: relative;
+    top: 235px;
+    left: -270px;
+    color: rgb(171, 10, 10);
+}
+.image2{
+    position: relative;
+    top: 20px;
+    height: 260px;
+    box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+                2px 0px 2px 4px rgba(33, 30, 30, 0.209);
+}
+.footer12{
+    overflow: hidden;
+    background: rgba(221, 213, 213,0.29); 
+    position: relative;
+    bottom: 5px;/*300*/
+    height: 400px;
+    margin-top: 10px;
+
+}
+.footer12 h1{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.footer12 .pfoot1{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: rgb(9, 9, 43);
+    font-weight: 600;
+}
+.footer12 input{
+    position: relative;
+    top: 110px;
+    left: 190px;
+    border: none;
+}
+.footer12 input[type=email]{
+    text-align: center;
+        width: 800px;
+        height: 40px;
+        text-transform: capitalize;
+        font-weight: 600;
+        color: rgb(9, 9, 43);
+        border: 1px solid rgb(9, 9, 43);
+}
+.footer12 input[type=submit]{
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100px;
+    height: 45px;
+    background-color: rgb(171, 10, 10);
+    color: #fff;
+    box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+    2px 0px 2px 4px rgba(33, 30, 30, 0.209);
+}
+.footer12 .pfoot2,a{
+    position: relative;
+    top: 140px;
+    left: 190px;
+    color: rgb(9, 9, 43);
+    font-weight: 600;
+}
+.footer12 .pfoot2 a{
+    color: rgb(171, 10, 10);
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+.rapdi{
+    overflow: hidden;
+    
+    background-color: rgb(9, 9, 43);
+    color: #fff;
+    display: flex;
+    height: 500px;
+}
+.rapdi1{
+    padding-left: 90px;
+    padding-top: 40px;
+    line-height: 35px;
+}
+.rapdi1 a{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: -5px;
+    
+}
+.copyrit{
+    position: relative;
+    top: 480px;
+    right: 400px;
+}
+.apropos{
+    padding-top: 40px;
+    line-height: 40px;
+    position: relative;
+    left: 200px;
+}
+.page11{
+display: grid;
+position: relative;
+bottom: 100px;
+right: 180px;
+margin-bottom: 70px;
+text-align: center;
+    
+    
+}
+.page11 a{
+    text-decoration: none;
+    color: rgb(9, 9, 43);
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 70px;
+    background-color: rgba(221, 213, 213,0.29);
+    border-top: 1px solid transparent;
+    width: 400px;
+    box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+    2px 0px 2px 4px rgba(33, 30, 30, 0.209);
+}
+.page11 a:hover{
+    box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+    2px 0px 2px 4px rgba(33, 30, 30, 0.209),
+    2px 0px 2px 4px rgba(33, 30, 30, 0.209);
+    background-color: rgb(9, 9, 43);
+    color: #fff;
+
+}
+/*about us*/
+.titre12{
+    display: none;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+    color: rgb(9, 9, 43);
+    font-weight: 500;
+}
+
+.first h3,.malo29{
+    display: none;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+    left: 420px;
+    bottom: 400px;
+    background-color: rgba(221, 213, 213,0.29);
+    width: 800px;
+    height: 280px;
+    font-weight: 600;
+
+}
+.malo29{
+    overflow: hidden;/*ajouter*/
+    position: relative;
+    bottom: 660px;
+}
+.namespacing{
+    color: rgb(171, 10, 10) !important;
+}
+.namespacing:hover{
+    border-bottom: 1px solid rgb(171, 10, 10);
+    color: rgb(9, 9, 43);
+    cursor: pointer;
+}
+.malo29 p,.first .malo29 img{
+    color: rgb(9, 9, 43);
+}
+.first h3{
+    background: none;
+    color: rgb(9, 9, 43);
+    font-weight: 600;
+    position: relative;
+    left: 600px;
+}
+.first .malo29 img{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 380px;
+    bottom: 270px;
+    box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+    2px 0px 2px 4px rgba(33, 30, 30, 0.209),
+    2px 0px 2px 4px rgba(33, 30, 30, 0.209);
+}
+.h1title{
+    display: none;
+    text-align: center;
+    position: relative;
+    bottom: 380px;
+    left: 200px;
+    font-weight: 600;
+    color: rgb(9, 9, 43);
+}
+
+.mali30 img{
+    height: 270px;
+}
+.mali30 p{
+    line-height: 20px;
+    font-weight: 600;
+    color: rgb(9, 9, 43);
+}
+
+.mali30{
+    display: none;/*flex*/
+    position: relative;
+    left: 450px;
+    bottom: 370px;
+    box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+    2px 0px 2px 4px rgba(33, 30, 30, 0.209),
+    2px 0px 2px 4px rgba(33, 30, 30, 0.209);
+    width: 750px;
+    background-color: rgba(221, 213, 213,0.29);
+}
+.h1title1{
+    display: none;
+    text-align: center;
+    position: relative;
+    bottom: 380px;
+    left: 200px;
+    font-weight: 600;
+    color: rgb(9, 9, 43);
+}
+.thirdp{
+    overflow: hidden;
+    display: none;/*flex*/
+    position: relative;
+    left: 450px;
+    bottom: 350px;
+    box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+    2px 0px 2px 4px rgba(33, 30, 30, 0.209),
+    2px 0px 2px 4px rgba(33, 30, 30, 0.209);
+    background-color: rgba(221, 213, 213,0.29);
+    width: 800px;
+}
+.thirdp img{
+   height:  225px;
+}
+/*traitement des images*/
+.trois h1{
+    display: inherit;
+    text-align: center;
+    position: relative;
+    bottom: 260px;
+
+}
+.photo{
+    display: flex;
+    background-color: rgba(221, 213, 213,0.29);
+}
+.photo img{
+    position: relative;
+    right: -40px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 0px 2px 4px  rgba(255, 255, 255, 0.876),
+    10px 0px 2px 4px rgba(33, 30, 30, 0.209),
+    10px 0px 2px 4px rgba(33, 30, 30, 0.209);
+}
+.photo .image1{
+    margin: 0px;
+    width: 400px;
+    height: 700px;
+    position: relative;
+    left: 50px;
+    top: -120px;
+    margin-left: 20px;
+}
+.photo .image2{
+    width: 400px;
+    height: 700px;
+    position: relative;
+    left: 50px;
+    top: -120px;
+}
+.photo .image3{
+    width: 400px;
+    height: 700px;
+    position: relative;
+    left: 50px;
+    top: -120px;
+}
+.pint{
+    height: 360px;
+    width: 800px;
+    position: relative;
+    left: 420px;  
+    bottom: 390px;
+}
+.histoire,.aboutus,.howwemake{
+    background: rgba(221, 213, 213,0.29);
+    
+}
+.histoirediv{
+display: none;
+position: relative;
+left: 413px;
+bottom: 370px;
+line-height: 38px;
+background:  rgba(221, 213, 213,0.29);
+width: 820px;
+
+}
+.histoitetitle{
+    display: none;
+    text-align: center;
+    position: relative;
+    bottom: 380px;
+    left: 100px;
+}
+.travail1{
+    position: relative;
+    bottom: 20px;
+}
+.travail123,.travail1{
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    background-color: rgba(221, 213, 213,0.29);
+    color: rgb(9, 9, 43);
+    font-weight: 600;
+}
+.travail1{
+    background:none;
+    position: relative;
+    bottom: 350px;
+}
+.howwemake p{
+    display: none;
+    line-height: 40px;
+    font-weight: 600;
+    background-color: rgba(221, 213, 213,0.29);
+}
+.howwemake h1,.howwemake p{
+    display: none;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    color: rgb(9, 9, 43);
+    
+
+}
+.howwemake h1{
+    
+    color: rgb(9, 9, 43);
+    margin-bottom: 20px;
+}

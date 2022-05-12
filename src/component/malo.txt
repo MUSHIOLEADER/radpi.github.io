@@ -1,0 +1,11 @@
+<FontAwesomeIcon className='leader' icon={faAngleDown}/>
+       window.onscroll= ()=>{
+                trackscroll();
+        }
+        const trackscroll=()=>{
+                if(document.documentElement.scrollTop){
+                        document.getElementById('seconddive').style.position="fixed";
+                }else{
+                        document.getElementById('seconddive').style.position="fixed"
+                }
+            }<FontAwesomeIcon icon="fa-solid faAngleRight" />
